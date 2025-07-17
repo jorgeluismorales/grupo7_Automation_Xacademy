@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean-report": "rm -rf allure-results/*.json && rm -rf allure-report",
+    "execute-tests": "cypress run",
+    "generate-report": "allure generate allure-results -o allure-report --clean",
+    "open-report": "allure open",
+    "test": "npm run clean-report && npm run execute-tests && npm run generate-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.24.0",
+    "allure-cypress": "^3.3.0"
+  }
+}
