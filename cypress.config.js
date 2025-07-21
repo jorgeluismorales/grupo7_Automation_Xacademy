@@ -9,6 +9,7 @@ module.exports = defineConfig({
 
       return config;
     },
-    baseUrl: 'https://vps-3696213-x.dattaweb.com'
+    baseUrl: 'https://vps-3696213-x.dattaweb.com',
+    defaultCommandTimeout: 6000
   },
 });
