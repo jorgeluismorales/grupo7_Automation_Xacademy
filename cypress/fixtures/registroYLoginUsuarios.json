@@ -1,0 +1,10 @@
+{
+  "usuarioValido": {
+    "email": "probando123123@yopmail.com",
+    "password": "Pass_1234"
+  },
+  "usuarioInvalido": {
+    "email": "23123@yopmail.com",
+    "password": "1234"
+  }
+}
