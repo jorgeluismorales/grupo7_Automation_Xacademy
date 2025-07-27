@@ -83,6 +83,7 @@ it('TC14 - Búsqueda por nombre con resultados', () => {
     .each(($card) => {
       cy.wrap($card).should('contain.text', 'Esperando La Carroza')
     })
+    
 })
 
 
