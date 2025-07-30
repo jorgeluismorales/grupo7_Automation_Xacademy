@@ -1,7 +1,14 @@
 
-# 🚀 Proyecto de Automatización con Cypress y Allure
+# 🤖 Automatización Grupo 7 — Xacademy
+
+## 🚀 Proyecto de Automatización con Cypress y Allure
 
 Este proyecto está diseñado para automatizar pruebas end-to-end usando Cypress y generar reportes visuales con Allure. Es ideal para equipos que buscan calidad, trazabilidad y facilidad de integración continua.
+
+## 📊 Reporte en Línea
+
+Puedes consultar el reporte más reciente de las pruebas automatizadas en:
+**[Ver Reporte Allure](https://jorgeluismorales.github.io/grupo7_Automation_Xacademy/)**
 
 
 
@@ -55,8 +62,3 @@ Este proyecto está diseñado para automatizar pruebas end-to-end usando Cypress
 ## 📑 Reportes
 
 Los reportes Allure se generan automáticamente en la carpeta `allure-report` después de ejecutar las pruebas. Además, pueden ser publicados automáticamente en GitHub Pages para su consulta en línea.
-
----
-
-
-🤖 Automatización Grupo 7 — Xacademy

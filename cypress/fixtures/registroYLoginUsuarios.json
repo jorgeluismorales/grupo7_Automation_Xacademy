@@ -6,5 +6,9 @@
   "usuarioInvalido": {
     "email": "23123@yopmail.com",
     "password": "1234"
+  },
+  "usuarioOrganizador": {
+    "email": "organizador12345@yopmail.com",
+    "password": "Pass_1234"
   }
 }
