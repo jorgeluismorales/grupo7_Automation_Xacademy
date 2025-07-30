@@ -172,7 +172,7 @@ describe('Crear evento', () => {
     });
 
 
-    it.only('Crear evento con fecha anterior al dia actual', () => {
+    it('Crear evento con fecha anterior al dia actual', () => {
         const nombreEvento = `evento de prueba ${Date.now()}`;
         cy.login(datosUsuarios.usuarioOrganizador.email, datosUsuarios.usuarioOrganizador.password);
         cy.contains('a', 'Cargar Evento').should('be.visible').click();
