@@ -8,7 +8,7 @@
     "execute-tests": "cypress run",
     "generate-report": "allure generate allure-results -o allure-report --clean",
     "open-report": "allure open",
-    "test": "npm run clean-report && npm run execute-tests && npm run generate-report"
+    "test": "npm run clean-report; npm run execute-tests; npm run generate-report"
   },
   "keywords": [],
   "author": "",
